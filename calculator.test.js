@@ -1,7 +1,6 @@
 const Calculator = require('./calculator');
 const calculator = new Calculator;
 
-// describe('compiling calculator methods goes as expected', () => {
     describe('compiling add method goes as expected', () => {
         test('Test add Method', () => {
             expect(calculator.add(1, 2)).toBe(3);
@@ -30,4 +29,3 @@ const calculator = new Calculator;
             expect(calculator.multiply(-4, -3)).toBe(12);
         });
     })
-// });
